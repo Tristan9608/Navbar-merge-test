@@ -6,59 +6,45 @@ import colors from '../../styles/colors.json';
 import shadow from '../../styles/shadows.json';
 import sizes from '../../styles/sizes.json';
 import typography from '../../styles/typography.json';
+import Icon from '../Icon/Icon';
 
-const onItemClick = (item) => {
-
-    if (!item)
-        return;
-
-    //The item's key is already its 1-based index.
-    let index = item.key;
-
-    if (index !== this.state.selectedIndex) {
-        this.setState(
-            { selectedIndex: index }
-        )
-
-        //Raise this event to UXPin. We'll send them info about which item was clicked on.
-        if (this.props[`onLink${index}Click`]) {
-            this.props[`onLink${index}Click`](index);
-        }
-    }
-}
-
-const NavCommon = withProps({
-    createProps: (props) => props.disabled,
-})(styled('navbar')`
+const NavStyles = styled('.navbar')`
 margin: 0;
-padding: 0;
-align-items: center;
+padding-top: 80px;
 width: 200px;
-height: 100%;
 background-color: #232152;
-`)
-(styled('navbar a')`
-display: block;
-color: white;
-padding: 13px;
-`)
-(styled('navbar a.active')`
-background-color: #648ed1;
-color: white;
-`)
-(styled('navbar a.hover:not(.active)')`
-background-color: #648ed1;
-color: white;
-`);
-
-const defaultNavItems = `icon(chart) 주문 관리
-icon(paymentcard) 수금 관리
-icon(pagelist) 견적 관리
-icon(repeatall) 갱신 관리
-icon(addgroup) 공통 업무`;
-
-const NavStyles = styled(NavCommon)`
-  
+position: fixed;
+height: 100%;
+overflow: auto;
 `;
 
-export default NavStyles;
+const NavSelectedStyles = styled('.navbar a')`
+display: block;
+color: white;
+padding-left: 68px;
+padding-top: 13px;
+padding-bottom: 13px;
+text-decoration: none;
+`;
+
+const NavActiveStyles = styled('.navbar a.active')`
+background-color: #648ed1;
+  color: white;
+`;
+
+const NavHoverStyles = styled('.navbar a:hover:not(.active)')`
+background-color: #648ed1;
+  color: white;
+`;
+
+const firstNavItem = styled('a')`icon(chart) 주문 관리`;
+const secondNavItem = styled('a')`icon(paymentcard) 수금 관리`;
+const thirdNavItem = styled('a')`icon(pagelist) 견적 관리`;
+const forthNavItem = styled('a')`icon(repeatall) 갱신 관리`;
+const fifthNavItem = styled('a')`icon(addgroup) 공통 업무`;
+
+
+export{
+    NavStyles, NavSelectedStyles, NavActiveStyles, NavHoverStyles, 
+    firstNavItem, secondNavItem,thirdNavItem,forthNavItem,fifthNavItem,
+};
