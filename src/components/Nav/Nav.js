@@ -1,6 +1,5 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import NavStyles from './Nav.styles';
 import Button from '../Button/Button';
 import{
     NavStyles, NavSelectedStyles, NavActiveStyles, NavHoverStyles, firstNavItem, secondNavItem,thirdNavItem,forthNavItem,fifthNavItem,
