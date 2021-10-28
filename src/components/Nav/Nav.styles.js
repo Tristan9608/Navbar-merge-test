@@ -32,9 +32,9 @@ const NavCommon = withProps({
 })(styled('button')`
 display: flex;
 align-items: center;
-width: '200px';
-height: 'auto';
-fill: #232152;
+width: 200px;
+height: 960px;
+background-color: #232152;
 `);
 
 const defaultNavItems = `icon(chart) 주문 관리
