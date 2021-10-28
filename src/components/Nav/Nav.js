@@ -10,24 +10,12 @@ const Nav = (props) => (
   );
 
   Nav.propTypes = {
-    
-    
-    /** @uxpinignoreprop */
-    title: PropTypes.string,
-    /** @uxpinignoreprop */
-    background: PropTypes.string,
-    /**
-     * @uxpinpropname Label
-     */
-    children: PropTypes.string,
     icon: PropTypes.node,
     stretched: PropTypes.bool,
     onClick: PropTypes.func,
   };
 
   Nav.defaultProps = {
-    mode: 'filled',
-    size: 'm',
     stretched: true,
   };
 

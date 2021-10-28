@@ -3,7 +3,5 @@ import Icon from '../../Icon/Icon';
 import Nav from '../Nav';
 
 export default (
-  <Nav>
-    Test
-  </Nav>
+  <Nav/>
 );

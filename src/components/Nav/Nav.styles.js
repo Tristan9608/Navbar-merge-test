@@ -29,11 +29,11 @@ const onItemClick = (item) => {
 
 const NavCommon = withProps({
     createProps: (props) => props.disabled,
-})(styled('button')`
+})(styled('navbar')`
 display: flex;
 align-items: center;
 width: 200px;
-height: 960px;
+height: 100%;
 background-color: #232152;
 `);
 
