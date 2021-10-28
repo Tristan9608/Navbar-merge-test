@@ -30,11 +30,26 @@ const onItemClick = (item) => {
 const NavCommon = withProps({
     createProps: (props) => props.disabled,
 })(styled('navbar')`
-display: flex;
+margin: 0;
+padding: 0;
 align-items: center;
 width: 200px;
 height: 100%;
 background-color: #232152;
+`);
+(styled('navbar a')`
+display: block;
+color: white;
+padding: 13px;
+
+`);
+(styled('navbar a.active')`
+background-color: #648ed1;
+color: white;
+`);
+(styled('navbar a.hover:not(.active)')`
+background-color: #648ed1;
+color: white;
 `);
 
 const defaultNavItems = `icon(chart) 주문 관리
