@@ -1,6 +1,7 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import { NavStyles } from './Nav.styles';
+//import { NavStyles } from './Nav.styles';
+import './Nav.css';
 //import Button from '../Button/Button';
 /*
 import{
@@ -26,11 +27,12 @@ export default class Nav extends React.Component{
 */
      render() {
          return(
+             /*
             <html>
                 <head>
                     <NavStyles/>
                 </head>
-                <body>
+                <body>*/
                     <div class="navbar">
                         <a class="active">주문 관리</a>
                         <a>수금 관리</a>
@@ -38,8 +40,8 @@ export default class Nav extends React.Component{
                         <a>갱신 관리</a>
                         <a>공통 업무</a>
                     </div>
-                </body>
-            </html>
+               /* </body>
+            </html>*/
          )
      }
 }

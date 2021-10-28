@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    }
+    .navbar{
+    margin: 0;
+    padding-top: 80px;
+    width: 200px;
+    background-color: #232152;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    }
+    .navbar a{
+    display: block;
+    color: white;
+    padding-left: 68px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-decoration: none;
+    }
+    .navbar a.active{
+    display: block;
+    color: white;
+    padding-left: 68px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-decoration: none;
+    }
+    .navbar a:hover:not(.active){
+    background-color: #648ed1;
+    color: white;
+    }
