@@ -36,17 +36,16 @@ align-items: center;
 width: 200px;
 height: 100%;
 background-color: #232152;
-`);
+`)
 (styled('navbar a')`
 display: block;
 color: white;
 padding: 13px;
-
-`);
+`)
 (styled('navbar a.active')`
 background-color: #648ed1;
 color: white;
-`);
+`)
 (styled('navbar a.hover:not(.active)')`
 background-color: #648ed1;
 color: white;
