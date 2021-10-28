@@ -20,12 +20,8 @@ body{
     text-decoration: none;
     }
     .navbar a.active{
-    display: block;
+    background-color: #648ed1;
     color: white;
-    padding-left: 68px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    text-decoration: none;
     }
     .navbar a:hover:not(.active){
     background-color: #648ed1;
