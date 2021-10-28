@@ -28,7 +28,7 @@ export default class Nav extends React.Component{
          return(
             <html>
                 <head>
-                    <NavStyles {...this.props}/>
+                    <NavStyles/>
                 </head>
                 <body>
                     <div class="navbar">
