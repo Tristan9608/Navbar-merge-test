@@ -49,11 +49,11 @@ export default class Nav extends React.Component{
      render() {
          return(
             <div class="navbar">
-                <a onClick1 class="active">주문 관리</a>
-                <a onClick2>수금 관리</a>
-                <a onClick3>견적 관리</a>
-                <a onClick4>갱신 관리</a>
-                <a onClick5>공통 업무</a>
+                <a onClick1 Icon="chart" class="active">주문 관리</a>
+                <a onClick2 Icon="paymentcard">수금 관리</a>
+                <a onClick3 Icon="pagelist">견적 관리</a>
+                <a onClick4 Icon="repeatall">갱신 관리</a>
+                <a onClick5 Icon="addgroup">공통 업무</a>
             </div>
          )
      }
