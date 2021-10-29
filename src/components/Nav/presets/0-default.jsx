@@ -3,5 +3,5 @@ import Icon from '../../Icon/Icon';
 import Nav from '../Nav';
 
 export default (
-  <Nav/>
+  <Nav uxpId="nav1"/>
 );

@@ -1,6 +1,7 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import Icon from '../Icon/Icon';
+import {chart,paymentcard,pagelist,repeatall,addgroup } from '@fluentui/react/lib/Icon';
+//import Icon from '../Icon/Icon';
 //import { NavStyles } from './Nav.styles';
 import './Nav.css';
 //import Button from '../Button/Button';
@@ -49,11 +50,16 @@ export default class Nav extends React.Component{
      render() {
          return(
             <div class="navbar">
-                <a onClick1 Icon="chart" class="active">주문 관리</a>
-                <a onClick2 Icon="paymentcard">수금 관리</a>
-                <a onClick3 Icon="pagelist">견적 관리</a>
-                <a onClick4 Icon="repeatall">갱신 관리</a>
-                <a onClick5 Icon="addgroup">공통 업무</a>
+                <chart/>
+                <a onClick1  class="active">주문관리</a>
+                <paymentcard/>
+                <a onClick2 Icon="paymentcard">수금관리</a>
+                <pagelist/>
+                <a onClick3 Icon="pagelist">견적관리</a>
+                <repeatall/>
+                <a onClick4 Icon="repeatall">갱신관리</a>
+                <addgroup/>
+                <a onClick5 Icon="addgroup">공통업무</a>
             </div>
          )
      }
