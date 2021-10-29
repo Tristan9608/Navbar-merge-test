@@ -1,6 +1,6 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import Icon from '../Icon';
+import Icon from '../Icon/Icon';
 //import { NavStyles } from './Nav.styles';
 import './Nav.css';
 //import Button from '../Button/Button';
