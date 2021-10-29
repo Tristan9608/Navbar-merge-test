@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from '../../Icon/Icon';
-import Nav from '../Nav';
+import Nav from '../Navtest';
 
 export default (
-  <Nav uxpId="nav1"/>
+  <Nav uxpId="navtest1"/>
 );
