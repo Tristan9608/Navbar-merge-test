@@ -1,22 +1,31 @@
 body{
+    margin: 0;
     font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: large;
     }
     .navbar{
+    margin: 0;
     padding-top: 80px;
     width: 200px;
-    height: 100%;
     background-color: #232152;
+    position: fixed;
+    height: 100%;
     overflow: auto;
     }
     .navbar a{
-    padding: 12px 48px 13px 48px;
     display: block;
     color: white;
+    padding-left: 68px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     text-decoration: none;
     }
-    .navbar a:hover{
+    .navbar a.active{
+    background-color: #648ed1;
+    color: white;
+    }
+    .navbar a:hover:not(.active){
     background-color: #648ed1;
     color: white;
     }
