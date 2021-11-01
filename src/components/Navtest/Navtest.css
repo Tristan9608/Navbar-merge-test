@@ -16,9 +16,7 @@ body{
     .navbar a{
     display: block;
     color: white;
-    padding-left: 58px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px 48px 16px 48px;
     text-decoration: none;
     }
     .navbar a.active{
