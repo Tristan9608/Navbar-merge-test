@@ -5,10 +5,6 @@ import './Navtest.css';
 export default class Navtest extends React.Component{
      render() {
          return(
-             <html>
-                
-                
-                
                 <div class="navbar">
                     <a><i class="ms-Icon ms-Icon--Chart" aria-hidden="true"></i> 주문관리</a>
                     <a><i class="ms-Icon ms-Icon--PaymentCard" aria-hidden="true"></i> 수금관리</a>
@@ -16,7 +12,6 @@ export default class Navtest extends React.Component{
                     <a><i class="ms-Icon ms-Icon--RepeatAll" aria-hidden="true"></i> 갱신관리</a>
                     <a><i class="ms-Icon ms-Icon--AddGroup" aria-hidden="true"></i> 공통업무</a>
                 </div>
-            </html>
          )
      }
 }
