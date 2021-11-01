@@ -4,8 +4,9 @@ body{
     font-size: large;
     }
     .navbar{
-    padding-top: 80px;
-    width: 100%;
+    padding-left: 0px;
+    padding-right: 48px;
+    width: 10%;
     height: 100%;
     min-width: 200px;
     min-height: 500px;
