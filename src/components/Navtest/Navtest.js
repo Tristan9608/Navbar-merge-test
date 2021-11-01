@@ -1,16 +1,14 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import Icon from '@fluentui/react/lib/Icon';
-
 import './Navtest.css';
 
 export default class Navtest extends React.Component{
      render() {
          return(
              <html>
-                <head>
-                    <link type="text/css" rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"></link>
-                </head>
+                
+                
+                
                 <div class="navbar">
                     <a><i class="ms-Icon ms-Icon--Chart" aria-hidden="true"></i> 주문관리</a>
                     <a><i class="ms-Icon ms-Icon--PaymentCard" aria-hidden="true"></i> 수금관리</a>
