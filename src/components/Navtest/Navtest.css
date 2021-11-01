@@ -5,9 +5,9 @@ body{
     }
     .navbar{
     padding-top: 80px;
-    width: 100%;
+    width: 200;
     background-color: #232152;
-    height: 100%;
+    height: 960;
     overflow: auto;
     }
     .navbar a{
