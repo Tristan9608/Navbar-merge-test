@@ -1,15 +1,12 @@
 body{
-    margin: 0;
     font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: large;
     }
     .navbar{
-    margin: 0;
     padding-top: 80px;
     width: 100%;
     background-color: #232152;
-    position: fixed;
     height: 100%;
     overflow: auto;
     }
