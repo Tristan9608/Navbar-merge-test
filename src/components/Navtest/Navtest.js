@@ -7,7 +7,7 @@ export default class Navtest extends React.Component{
          return(
                 <div class="navbar">
                     <link type="text/css" rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"></link>
-                    <a class="active"><i class="ms-Icon ms-Icon--Chart" aria-hidden="true"></i> 주문관리</a>
+                    <a className="active"><i class="ms-Icon ms-Icon--Chart" aria-hidden="true"></i> 주문관리</a>
                     <a><i class="ms-Icon ms-Icon--PaymentCard" aria-hidden="true"></i> 수금관리</a>
                     <a><i class="ms-Icon ms-Icon--PageList" aria-hidden="true"></i> 견적관리</a>
                     <a><i class="ms-Icon ms-Icon--RepeatAll" aria-hidden="true"></i> 갱신관리</a>
